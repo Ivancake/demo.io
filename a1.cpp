@@ -10,7 +10,7 @@ int main()
         tempx = b - q * (b - a) / (q - p);
         tempy = pow(exp(1), tempx - 1) - pow(tempx, 3) - tempx;
         a = b;
-        p = a;
+        p = q;
         b = tempx;
         q = tempy;
 
