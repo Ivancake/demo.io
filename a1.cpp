@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-// 1 variant
+// 1 variant1
 int main()
 {
     double a = 0, b = 1, p = pow(exp(1), a - 1) - pow(a, 3) - a, q = pow(exp(b), b - 1) - pow(b, 3) - b, tempx, tempy, e = 0.00001;
